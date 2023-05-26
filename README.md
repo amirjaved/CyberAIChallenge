@@ -6,19 +6,19 @@ By working on the challenges, participants will get a deeper understanding of cy
 
 **Participants:** The challenge is open to all Cardiff, Osmania, and Hyderabad University students.  The students are invited to work on the challenge in teams. 
 
-**Duration:** The challenge will be open for one month from <insert date>, after which students will be invited to present their work. 
+**Duration:** The challenge will be open for three weeks from 30th May - 18 June, after which students will be invited to present their finding on 19th June between 9 am - 1 pm virutally via . 
 
 **Cybersecurity Theme Challenges:** Each participating team could choose from a variety of themed challenges listed below.
 1.	Adversarial machine learning and cybersecurity.
 2.	Fingerprinting Cybercriminal behaviour using Honeypot.
-3.	Online social networks and malware.
-4.	Integrating IoT communication with blockchain
+3.	AI and IDS
+4.	Adversarial attacks on image classification in self-driving cars
 
 
 **Evaluate and Provide Feedback:** Each team will be required to present their work in a virtual event, and feedback will be given to each team post the event. 
 
 **Prize:**  Each winning team from each university will get a prize of £200.
-
+ **Registration link ** https://www.eventbrite.co.uk/e/cybersecurity-ai-challenge-tickets-643625159177
   
  #  Theme 1 Advesarial Machine learning and Cyber security.
  
@@ -119,6 +119,44 @@ Datasets:
 2.	UK Biobank: https://www.ukbiobank.ac.uk/
 3.	TCGA: https://www.cancer.gov/about-nci/organization/ccg/research/structural-genomics/tcga
 
-   #  Theme 4 <>
-   #  Theme 5 <>
-   #  Theme 6 <>
+#  Theme 5 Theme - Prototype for Deepfake image forensics
+**Problem statement:**
+Advances in AI, especially Deep Neural Networks (DNN) and Generative Adversarial Networks (GAN), make deepfake images much easier, cheaper, and simpler. Deepfake uses latest technologies to change people's faces in an images synchronizing eyes, lips, and other facial expressions, as well as body movements. Realistic deepfake images can be used to bypass facial authentication, create political distress, make fake news, and blackmail an individual.
+
+**Background: **
+With drastic increase in multimedia files particularly images, the authentication of these files face humongous challenge due to various forgery techniques available in the literature. Cyber criminals are taking advantage of these forgery techniques and creating false information that can mislead the court of law. The images’ content which is found over the Internet is almost (about 70%) forged and is distributed for fraudulent purpose or to misrepresent the information in the society. The traditional forgery techniques for images are copy-move, image splicing, retouching, JPEG compression, etc. The most commonly used image forgery techniques to perform cybercrimes are copy-move and image splicing. The models to detect forgeries created using these techniques are available in the literature. 
+
+Recent advances in Deep Learning-based approaches, Artificial Intelligence, etc. have enabled the creation of media content (especially images) that is not easily recognizable by humans - as real or fake. These can be referred to as ‘Deepfake’ - appearing as authentic and realistic. Detection and location of forgeries in Deepfake images is a challenge today.
+
+In the literature, there are various image forgery detection techniques which require the original source files. The major challenge in performing image forensics is that the source files are unavailable during forensic investigation. Generally, only forged files are available and not the original during digital forensic analysis. In this direction, you are tasked to propose a potential viable solution to the above problem statement fulfiling below mentioned research objectives. 
+1.To design a Deepfake (image forgery) detection method for digital image forensics 
+2.To propose a method to localize (or segment) the area of Deepfake (image forgery)
+3.To design and develop a prototype (software tool) by integrating the above methods for image forensics
+
+References:
+1.	Kao, Ching-Yu Franziska, et al. "Real or Fake? A Practical Method for Detecting Tempered Images." 2022 IEEE 5th International Conference on Image Processing Applications and Systems (IPAS). IEEE, 2022.
+2.	Guan, Weinan, et al. "Collaborative Feature Learning for Fine-grained Facial Forgery Detection and Segmentation." arXiv preprint arXiv:2304.08078 (2023)
+3.	Tran, Van-Nhan, et al. "Generalization of Forgery Detection with Meta Deepfake Detection Model." IEEE Access (2022).
+
+Dataset: StarGAN: Unified Generative Adversarial Networks for Multi-Domain Image-to-Image Translation: https://github.com/yunjey/stargan
+
+#  Theme 6 Secure Remote Access using Intrusion Detection Systems or IPS
+  
+**Problem statement**
+Computer networks are exposed to cyber related attacks due to the common usage of internet, to secure the networks from those attacks, intrusion detection systems (IDSs) are required. The efficiency of the IDS is a major concern in protecting the networks.
+  
+**Background**
+The School of Computer and Information Sciences has many computing labs, consisting of many servers and desktops. During the lockdowns (COVID times), labs were not accessible or usable due to security reasons. So, we need to develop a mechanism for secure remote access to the lab systems. 
+Impact: In fact, this is not only for lockdowns but this access helps a lot during weekends, non-office hours, vacations etc. So this type of access to our labs is very beneficial. This same mechanism can be used by other schools at our university and at other universities as well.
+  
+**Task** 
+The complete solution to this problem is to design and discuss the implementation of secure access, which includes multiple tools and technologies. As ours is a publicly funded university, we prefer the reuse of the existing open source tools as much as possible without any commercial tools, but the proposed solution needs to be better than the existing ones which may use machine learning models.
+One of the important parts of this mechanism is IDS/IPS. This IDS needs to work with both traditional traffic and encrypted traffic. And the proposed IDS should detect all the threats and attacks, so it should be better than the existing IDS.
+References:
+1.	U. S. Musa, M. Chhabra, A. Ali and M. Kaur, "Intrusion Detection System using Machine Learning Techniques: A Review," 2020 International Conference on Smart Electronics and Communication (ICOSEC), Trichy, India, 2020, pp. 149-155, doi: 10.1109/ICOSEC49089.2020.9215333.
+2.	U. S. Musa, S. Chakraborty, M. M. Abdullahi and T. Maini, "A Review on Intrusion Detection System using Machine Learning Techniques," 2021 International Conference on Computing, Communication, and Intelligent Systems (ICCCIS), Greater Noida, India, 2021, pp. 541-549, doi: 10.1109/ICCCIS51004.2021.9397121.
+3.	https://vpn-services.bestreviews.net/what-are-ids-and-ips-and-how-they-complement-a-vpn/
+4.	E. Papadogiannaki, G. Tsirantonakis and S. Ioannidis, "Network Intrusion Detection in Encrypted Traffic," 2022 IEEE Conference on Dependable and Secure Computing (DSC), Edinburgh, United Kingdom, 2022, pp. 1-8, doi: 10.1109/DSC54232.2022.9888942.
+5.	R. Bar and C. Hajaj, "SimCSE for Encrypted Traffic Detection and Zero-Day Attack Detection," in IEEE Access, vol. 10, pp. 56952-56960, 2022, doi: 10.1109/ACCESS.2022.3177272.
+
+

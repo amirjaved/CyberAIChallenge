@@ -29,7 +29,7 @@ The cyber threat landscape is evolving every minute, and cybercriminals are find
   2. BODMAS Malware Dataset https://whyisyoung.github.io/BODMAS/
   
 **Research challenge:**
-The research challenge should aim to answer below mentioned research questions:
+The team should aim to answer below mentioned research questions:
   1. What techniques can a patient adversary use to mistrain or evade a learning system or compromise data privacy?
   2. How might we evaluate the success of adversarial attack?
   3. What are the relevant security criteria necessary to evaluate the security of a malware detection model in a particular adversarial environment?
@@ -70,7 +70,7 @@ By monitoring and analyzing the traffic and activity on these honeypots, securit
   
 
 **Research challenge:**
-The research challenge should aim to answer below mentioned research questions:
+The team should aim to answer below mentioned research questions:
 1. What are the different/similar techniques used by cybercriminals.
 2. How should an adapative honeypot that changes the enviroments based on cybercrimanl behaviour look like?
 

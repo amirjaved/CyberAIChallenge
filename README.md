@@ -1,5 +1,5 @@
 # CyberAIChallenge
-AI and Cybersecurity challenge for Cardiff, Osmania, and Hyderabad university students.
+AI and Cybersecurity challenge for Cardiff, Osmania, and Hyderabad university students. **UUK supports the event**.
 
 **Objectives:** The aim of the Cybersecurity and AI challenge is for participants to get a chance to work on different research problems related to cybersecurity and machine learning.
 By working on the challenges, participants will get a deeper understanding of cybersecurity best practices and new emerging cybersecurity threats. In addition, they will get hands-on experience with cybersecurity tools and techniques. 

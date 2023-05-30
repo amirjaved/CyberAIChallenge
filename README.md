@@ -159,4 +159,22 @@ References:
 4.	E. Papadogiannaki, G. Tsirantonakis and S. Ioannidis, "Network Intrusion Detection in Encrypted Traffic," 2022 IEEE Conference on Dependable and Secure Computing (DSC), Edinburgh, United Kingdom, 2022, pp. 1-8, doi: 10.1109/DSC54232.2022.9888942.
 5.	R. Bar and C. Hajaj, "SimCSE for Encrypted Traffic Detection and Zero-Day Attack Detection," in IEEE Access, vol. 10, pp. 56952-56960, 2022, doi: 10.1109/ACCESS.2022.3177272.
 
+# Theme 7:  Transaction Privacy in Healthcare based Blockchains
+
+**Problem statement:**  
+Blockchain based applications are emerging drastically in Medical sector to maintain health records of a patient and so on. Even though blockchain technology has reached successfully, to meet the requirements of its chosen area, there are still some gaps in providing security & privacy to transactions. 
+
+**Background:** 
+Blockchains have revolutinized the healthcare domain. However, considering the transparency feature of Blockchain, any transaction on blockchain particularly public blockchain are transparent enough thereby compromising the privacy of the users.
+
+**Impact:**  
+Health care data is considered to be quite sensitive and keeping such data on a block chain can definitely affect the privacy of the patient. 
+
+**Task:**  
+Techniques such as Mixing services, Zero knowledge Proofs and  Homomorphc Encryption are used in literature to address Identity and Transaction privacy concerns in Blockchain based applications. You  are tasked to propose a potential solution to  achieve Identity and Transaction privacy in Health care based blockchains.
+
+**References: **
+1. Peng, Li, et al. "Privacy preservation in permissionless blockchain: A survey." Digital Communications and Networks 7.3 (2021): 295-307.
+2. Feng, Qi, et al. "A survey on privacy protection in blockchain system." Journal of Network and Computer Applications 126 (2019): 45-58.
+3. M. Wang, Y. Guo, C. Zhang, C. Wang, H. Huang and X. Jia, "MedShare: A Privacy-Preserving Medical Data Sharing System by Using Blockchain," in IEEE Transactions on Services Computing, vol. 16, no. 1, pp. 438-451, 1 Jan.-Feb. 2023, doi: 10.1109/TSC.2021.3114719.
 
